@@ -1,9 +1,0 @@
-version: '3'
-services:
-  ibmtests:
-    build:
-      dockerfile: Dockerfile
-    ports:
-      - "127.0.0.1:54332:54332"
-    command: ./entrypoint.sh
-    image: result/latest
